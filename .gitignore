@@ -19,3 +19,8 @@
 /apiTurnoMatico/obj/Debug/net9.0/apiTurnoMatico.GeneratedMSBuildEditorConfig.editorconfig
 /apiTurnoMatico/obj/project.assets.json
 /apiTurnoMatico/obj/project.nuget.cache
+*.v2
+/.vs/apiTurnoMatico/v17/.futdcache.v2
+/.vs/apiTurnoMatico/v17/.suo
+/.vs/apiTurnoMatico/v17/DocumentLayout.backup.json
+/.vs/apiTurnoMatico/v17/DocumentLayout.json

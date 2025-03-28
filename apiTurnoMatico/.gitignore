@@ -1,0 +1,22 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.tmp
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+# Windows Installer
+*.exe
+# User-specific files
+.vs/
+.vscode/
+.idea/
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+# Rider
+.idea/

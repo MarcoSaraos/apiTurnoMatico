@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/apiTurnoMatico/FileContentIndex/262a0d7d-100e-496a-87c2-beef2609e59b.vsidx
+/.vs/apiTurnoMatico/FileContentIndex/35e877dc-f8e1-4e6f-95de-fdc67b3765f3.vsidx
+/.vs/apiTurnoMatico/FileContentIndex/544b7c7e-e7ab-4a3c-9ce3-73af82fbaf0c.vsidx
+/.vs/apiTurnoMatico/FileContentIndex/a960368d-0673-40aa-994b-7d62758923a7.vsidx
+/.vs/apiTurnoMatico/FileContentIndex/c13be503-ac2c-4587-9674-451f589bb642.vsidx
+/.vs/ProjectEvaluation/apiturnomatico.metadata.v9.bin
+/.vs/ProjectEvaluation/apiturnomatico.projects.v9.bin
+/.vs/ProjectEvaluation/apiturnomatico.strings.v9.bin
+/apiTurnoMatico/obj/apiTurnoMatico.csproj.nuget.dgspec.json
+/apiTurnoMatico/obj/apiTurnoMatico.csproj.nuget.g.props
+/apiTurnoMatico/obj/Debug/net9.0/apiTurnoMatico.AssemblyInfo.cs
+/apiTurnoMatico/obj/Debug/net9.0/apiTurnoMatico.AssemblyInfoInputs.cache
+/apiTurnoMatico/obj/Debug/net9.0/apiTurnoMatico.assets.cache
+/apiTurnoMatico/obj/Debug/net9.0/apiTurnoMatico.csproj.AssemblyReference.cache
+/apiTurnoMatico/obj/Debug/net9.0/apiTurnoMatico.GeneratedMSBuildEditorConfig.editorconfig
+/apiTurnoMatico/obj/project.assets.json
+/apiTurnoMatico/obj/project.nuget.cache

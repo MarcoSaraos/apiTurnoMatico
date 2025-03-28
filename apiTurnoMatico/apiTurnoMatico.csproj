@@ -9,10 +9,18 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="DLLS\" />
+    <Folder Include="Modelos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Kurama.Helpers">
+      <HintPath>DLLS\Kurama.Helpers.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

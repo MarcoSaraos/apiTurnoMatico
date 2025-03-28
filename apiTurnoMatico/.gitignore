@@ -20,3 +20,5 @@ obj/
 ScaffoldingReadMe.txt
 # Rider
 .idea/
+
+../.vs/

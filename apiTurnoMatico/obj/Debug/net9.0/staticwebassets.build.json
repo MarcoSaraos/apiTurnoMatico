@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "1GDtQQ6/30mcw1eLZDG+3dEhoYH2c55EEk/xFcq+qKE=",
+  "Source": "apiTurnoMatico",
+  "BasePath": "_content/apiTurnoMatico",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

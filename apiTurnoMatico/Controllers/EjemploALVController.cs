@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
 using System.Data.Common;
+using System.Reflection.PortableExecutable;
 
 namespace apiTurnoMatico.Controllers
 {
@@ -39,6 +40,26 @@ namespace apiTurnoMatico.Controllers
             var apiResponse = ApiResponse<dynamic>.Success(data);
             return Ok(apiResponse);
         }
+        [HttpGet("Async")]
+        public async Task<IActionResult> ObtenerAsync()
+        {
+            string cnnStrinSql = "Data Source=172.31.9.63;Initial Catalog=db_Citas;Integrated Security=False;User ID=sa;Password=12345678a$";
+            string query = "SELECT FolioInternet  FROM [db_Citas].[dbo].[Cita]";
 
+            List<dynamic> data = new List<dynamic>();
+
+            using (var reader = await SqlHelper.ExecuteReaderAsync(cnnStrinSql, CommandType.Text, query)) // ✅ Usa tu método personalizado
+            {
+                while (await reader.ReadAsync()) // ✅ Lee los datos de manera asíncrona
+                {
+                    var folioInternet = reader.GetString(0);
+                    data.Add(new { FolioInternet = folioInternet });
+                }
+            }
+
+            // Respondemos con los datos en formato de éxito
+            var apiResponse = ApiResponse<dynamic>.Success(data);
+            return StatusCode(apiResponse.StatusCode, apiResponse);
+        }
     }
 }
